@@ -52,7 +52,7 @@
             var dom = document.getElementsByTagName('*');
             for (i in dom) {
                 dom[i].style.margin = "3px";
-                dom[i].style.border = "4px #999 dashed";
+                dom[i].style.border = "4px #999 hidden";
                 dom[i].style.padding = "3px";
             }
         },
