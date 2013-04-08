@@ -20,7 +20,7 @@
     };
     var getXPath = function(element) {
         if (element.id !=='')
-            return '/'+element.tagName+ '[@id="'+element.id+'"]';
+            return '//*[@id="'+element.id+'"]';
         if (element===document.body)
             return element.tagName;
         var ix= 0;
